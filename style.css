@@ -66,6 +66,7 @@ button{
   padding: 4px 20px;
   border-radius: 8px;
   color: white;
+  border-color: white;
   font-weight: bold;
   font-size: 15px;
 }
@@ -105,4 +106,50 @@ button{
   font-size: 36px;
   color: #1F2937;
   font-weight: 900;
+}
+.quote{
+  background-color: #E5E7EB;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.quote p{
+  font:italic lighter 36px Roboto;
+  color: #1F2937;
+}
+.author{
+  text-align: right;
+  font-weight: 900;
+  font-size: 18px; 
+}
+.quote p,
+.author{
+  width: 800px;
+}
+.action{
+  margin: 100px 200px;
+  display: flex;
+  background-color: #3882F6;
+  border-radius: 18px;
+  height: 130px;
+  justify-content: space-around;
+  align-items: center;
+}
+.maintext{
+  color: #F9FAF8;
+  font-size: 20px;
+  font-weight: 900;
+}
+.steps .subtext{
+  margin: 0;
+  font-size: 15px;
+}
+.footer{
+  text-align: center;
+  background-color: #1F2937;
+  font-size: 18px;
+  color: #F9FAF8;
+  padding: 30px;
 }
